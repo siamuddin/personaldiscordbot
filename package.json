@@ -1,0 +1,30 @@
+{
+  "name": "discord-personal-bot",
+  "version": "1.0.0",
+  "description": "Personal Discord bot for file management and user info",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "files",
+    "avatar",
+    "banner"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
